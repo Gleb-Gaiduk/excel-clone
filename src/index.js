@@ -7,5 +7,4 @@ import {Table} from '@/components/table/Table';
 import './scss/index.scss';
 
 const excel = new Excel('#app', [Header, Toolbar, Formula, Table]);
-
 excel.renderAllComponents();
